@@ -1,5 +1,5 @@
 
-import styles from ' ./header.module.css '
+import styles from "./header.module.css"
 
 import Image from 'next/image'
 
