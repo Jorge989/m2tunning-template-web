@@ -39,7 +39,11 @@ export const Insta = styled.div`
   padding: 0px 20px;
   align-items: center;
   justify-content: flex-start;
+  margin: 0 auto;
   gap: 10px;
+width:100%;
+max-width:1350px;
+;
   a {
     color: #222222;
     font-weight: 500;
