@@ -1,46 +1,47 @@
 
-import styles from "./header.module.css"
+
 
 import Image from 'next/image'
-
+import {Header1,Nav,Ul,Li,A}from './styles'
 const Header: React.FC = () => {
 
 
   return (
-    <header className={styles.header}>
+    <Header1>
       <Image
-        className={styles.image}
+     className="imagem"
         src="/img/logo.png"
         alt="logo"
         width={150}
         height={60}
         quality={75}
+
       />
-      <nav className={styles.nav}>
-        <ul className={styles.ul}>
-          <li>
-            <a href="#sobre" className={styles.a}>
+      <Nav>
+        <Ul>
+          <Li>
+            <A href="#sobre">
               Envelopamentos
-            </a>
-          </li>
-          <li>
-            <a href="#team" className={styles.a}>
+            </A>
+          </Li>
+          <Li>
+            <A href="#team" >
               insulfilm
-            </a>
-          </li>
-          <li>
-            <a href="#signin" className={styles.a}>
+            </A>
+          </Li>
+          <Li>
+            <A href="#signin" >
               limpeza técnica
-            </a>
-          </li>
-          <li>
-            <a href="#signin" className={styles.a}>
-             contato
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+            </A>
+          </Li>
+          <Li>
+            <A href="#signin" >
+              contato
+            </A>
+          </Li>
+        </Ul>
+      </Nav>
+    </Header1>
   )
 }
 
