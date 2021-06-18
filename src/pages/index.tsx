@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import {Container} from './styles'
+
 import Link from 'next/link'
 import Header from '../components/Header'
 import Main from '../components/Main'
@@ -16,7 +16,7 @@ const Home = () => {
   return (
   <>
     <Header></Header>
-  <Container>
+
     <Carrousel>
       <Slides>
         <Slide />
@@ -27,7 +27,7 @@ const Home = () => {
       </SlideNav>
     </Carrousel>
     <Main/>
-      </Container>
+     
       </>
 )
 };
