@@ -3,15 +3,15 @@ import React, { useState, useContext, useEffect } from "react";
 import { slides } from "../Slides/slides";
 import { ReactElement } from 'react'
 import wats from '../../../public/img/wats.png'
-import yelo from '../../../public/img/yelo.png'
-import {faPhone } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
+
 const CarrouselContext = React.createContext();
 
 export const Carrousel = ({ children }) => {
   return (
     <CarrouselContext.Provider value={useState(0)}>
-      <div>{children}</div>
+      <div className={styles.pai}>{children}</div>
     </CarrouselContext.Provider>
   );
 };
@@ -46,7 +46,7 @@ export const Slides = ({ children }) => {
     if (isPlaying) {
       setTimeout(() => {
         setCurrentIndex((currentIndex + 1) % slides.length);
-      }, 3000);
+      }, 2500);
     }
   });
 
@@ -56,25 +56,21 @@ export const Slides = ({ children }) => {
 export const Slide = () => {
   const [activeIndex] = useContext(CarrouselContext);
   return (
-    <div className={styles.container}>
-      <div className={styles.wraper1}>
-        <div className={styles.textos}>
-          <h1 className={styles.h1}>
-            M2 Tuning
-            <br /> Envelopamento Premium <br />
-            Insulfilm e Estética Automotiva
-          </h1>
-
-          <a className={styles.a}>
-            Whatsapp online{' '}
-            <img src={wats} alt={wats} className={styles.wats} />
-          </a>
-        </div>
-        <div className={styles.yellow}>
-          {' '}
-          <img src={yelo} alt={wats} className={styles.yelo} />
-        </div>
-        <div className={styles.wraper}></div>
+    
+    <>
+      <div className={styles.wraper}>
+      <div className={styles.mapa}>
+        {' '}
+  
+          <iframe
+            className={styles.frame}
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.0256628867373!2d-46.67560258538197!3d-23.639251970357677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b6481ea7683%3A0x519a85c11abac95e!2sM2%20Tuning%20-%20Envelopamento%20Premium%2C%20Insulfilm%20Est%C3%A9tica%20Automotiva%20e%20PPF%20(%20PROTE%C3%87%C3%83O%20DE%20PINTURA%20)!5e0!3m2!1spt-BR!2sbr!4v1624203940280!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            loading="lazy"
+          ></iframe>
+        
+      </div>
         {slides.map((image, index) => {
           if (activeIndex === index) {
             return (
@@ -93,7 +89,7 @@ export const Slide = () => {
           }
         })}
       </div>
-    </div>
+    </>
   )
 };
 
