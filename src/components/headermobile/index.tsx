@@ -49,7 +49,7 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height:160px;
+  height:120px;
   max-width: 1200px;
   align-items: center;
   padding: 0 30px;
@@ -78,7 +78,7 @@ const Brand = styled(Link)`
 
 const ToggleMenu = styled.img`
   display: flex;
-  width: 90px;
+  width: 50px;
   height: 200px;
   position: relative;
   z-index: 9999;
@@ -111,7 +111,7 @@ const Navgation = styled.div<effect>`
     `}
     ul {
     position: absolute;
-    top: 25%;
+    top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
