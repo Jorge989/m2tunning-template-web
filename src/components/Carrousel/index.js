@@ -1,8 +1,7 @@
 import styles from './carrousel.module.css'
 import React, { useState, useContext, useEffect } from "react";
 import { slides } from "../Slides/slides";
-import { ReactElement } from 'react'
-import wats from '../../../public/img/wats.png'
+
 
 
 

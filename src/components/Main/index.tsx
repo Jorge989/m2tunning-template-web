@@ -8,18 +8,17 @@ import {
   CarrosContianer,
   CarrosContianer2,
   CarrosContianer3,
-  Mapa
+
 } from './styles'
 import inslogo from '../../../public/img/instagram.png'
 import cartao from '../../../public/img/cartao3.jpg'
 import carrocamuflado from '../../../public/img/carrocamuflado.jpg'
-import carro1 from '../../../public/img/env1.jpg'
-import evoke from '../../../public/img/evoke.jpg'
+
 import evokeroxa from '../../../public/img/evokeroxa.jpg'
 import evokeazul2 from '../../../public/img/evokeazul3.jpg'
 import carroverde from '../../../public/img/carroverde.jpg'
 import carrolaranja from '../../../public/img/carrolaranja.jpg'
-import carroazul from '../../../public/img/carroazul.jpg'
+
 import carrocinzaback from '../../../public/img/carrocinzaback.jpg'
 import evokementa from '../../../public/img/evokementa.jpg'
 import pretared from '../../../public/img/pretored.jpg'
