@@ -111,7 +111,7 @@ const Navgation = styled.div<effect>`
     `}
     ul {
     position: absolute;
-    top: 18%;
+    top: 19%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -122,7 +122,7 @@ const Navgation = styled.div<effect>`
     a {
       color: #fddc3e;
 
-      font-size: 30px;
+      font-size: 25px;
       font-weight: 600;
       text-decoration: none;
       
