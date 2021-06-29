@@ -13,10 +13,11 @@ export const Container = styled.div`
   letter-spacing: 3px;
   text-align: center;
 
+
   iframe {
     margin-top: 15px;
     width: 90%;
-    height: 300px;
+    height: 450px;
   }
   h1 {
     color: #222222;
