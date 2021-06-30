@@ -57,6 +57,7 @@ export const Li = styled.li`
 `
 export const A = styled.a`
   text-decoration: none;
+  font-size:24px;
 
   :hover {
     text-decoration: underline;

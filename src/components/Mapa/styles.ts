@@ -2,12 +2,12 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   width: 100%;
-  display: flex;
+  
   flex-direction: column;
   align-items: center;
-
-  justify-content: center;
-  padding: 100px 10px;
+height:100vh;
+  justify-content: flex-start;
+  padding: 150px 10px;
 
   font-family: 'Staatliches', cursive;
   letter-spacing: 3px;
@@ -17,11 +17,11 @@ export const Container = styled.div`
   iframe {
     margin-top: 15px;
     width: 90%;
-    height: 450px;
+    height:80%;
   }
   h1 {
     color: #222222;
-    font-size: 45px !important;
+    font-size: 45px ;
     align-items: center;
   }
   h2 {

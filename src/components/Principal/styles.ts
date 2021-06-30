@@ -35,6 +35,7 @@ export const Container = styled.div`
     height: 25px;
   }
   a {
+    font-size:22px;
     display: flex;
     align-items: center;
     justify-content: center;

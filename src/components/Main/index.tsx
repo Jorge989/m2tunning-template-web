@@ -8,7 +8,7 @@ import {
   CarrosContianer,
   CarrosContianer2,
   CarrosContianer3,
-
+  InstaButton
 } from './styles'
 import inslogo from '../../../public/img/instagram.png'
 import cartao from '../../../public/img/cartao3.jpg'
@@ -141,8 +141,8 @@ const Main: React.FC = () => {
               <img src={carrobranco} />
             </a>
           </CarrosContianer3>
+     <InstaButton>Siga no Instagram</InstaButton>
         </CarrosWrap>
-     
       </Container>
     </body>
   )
