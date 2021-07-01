@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image'
 import {
   Container,
   Textos,
@@ -141,8 +141,12 @@ const Main: React.FC = () => {
               <img src={carrobranco} />
             </a>
           </CarrosContianer3>
-     <InstaButton>Siga no Instagram</InstaButton>
         </CarrosWrap>
+          <InstaButton>
+            {' '}
+           
+            Siga no Instagram
+          </InstaButton>
       </Container>
     </body>
   )

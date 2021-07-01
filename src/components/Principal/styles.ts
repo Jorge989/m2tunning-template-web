@@ -35,7 +35,7 @@ export const Container = styled.div`
     height: 25px;
   }
   a {
-    font-size:22px;
+    font-size: max(20px, 20px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +43,7 @@ export const Container = styled.div`
     font-weight: bolder;
     background-color: transparent;
     border: 2px solid #fddc3e;
-    margin-top: 50px;
+margin-top:50px;
     color: #fff;
     width: 210px;
     cursor: pointer;
@@ -85,7 +85,7 @@ export const Container = styled.div`
       font-size: 40px;
       letter-spacing: 5px;
       font-weight: bold;
-      padding:50px 1.5px;
+      padding: 50px 1.5px;
       text-shadow: 0px 0px 3px 2px #000;
       text-align: center;
       z-index: 3;
@@ -103,7 +103,7 @@ export const Container = styled.div`
       font-weight: bolder;
       background-color: transparent;
       border: 2px solid #fddc3e;
-      margin-top: 10px;
+      margin-top: -25px;
       color: #fff;
       width: 210px;
       cursor: pointer;

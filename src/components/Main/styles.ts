@@ -15,6 +15,7 @@ export const Container = styled.div`
     rgb(253, 253, 253)
   );
 
+
 `
 export const Textos = styled.div`
   display: flex;
@@ -69,16 +70,15 @@ export const Insta = styled.div`
 `
 export const InstaButton = styled.button`
   display: flex;
-  background-image: linear-gradient(to right, #6c49c6, #c837ab, #ff7143);
-border:2px solid #fff;
-box-shadow:0px 0.6px 3px 2px  #666;
-cursor: pointer;
-color:#fff;
-font-family: 'Roboto', sans-serif;
-font-weight:600;
-letter-spacing:1px;
-
-
+  background-color: #0064ae;
+  border: 2px solid #fff;
+  box-shadow: 0px 0.6px 3px 2px #666;
+  cursor: pointer;
+  font-size:16px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
 
   justify-content: center;
   flex-direction: column;
@@ -90,6 +90,7 @@ letter-spacing:1px;
   width: 170px;
   max-width: 170px;
   margin: 0 auto;
+  margin-top:40px;
 `
 export const CarrosWrap = styled.div`
 display:flex;
