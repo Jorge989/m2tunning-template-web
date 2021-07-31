@@ -37,7 +37,7 @@ import tod6 from '../../../public/img/tod6.png'
 import tod7 from '../../../public/img/tod7.png'
 import tod8 from '../../../public/img/tod8.png'
 
-const envelopamentos: React.FC = () => {
+const Envelopamentos: React.FC = () => {
   const [continuecarr, setContinuecar] = useState(false)
     const [continuecarr2, setContinuecar2] = useState(false)
   const [controle, setControle] = useState(true)
@@ -259,4 +259,4 @@ const envelopamentos: React.FC = () => {
     )
 }
 
-export default envelopamentos;
+export default Envelopamentos

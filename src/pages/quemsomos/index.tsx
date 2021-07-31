@@ -7,7 +7,7 @@ import Footer from '../../components/footer'
  import { Container,   Wrapper, ImageBox, Textos } from './styles'
 
  
-const quemsomos: React.FC = () => {
+const Quemsomos: React.FC = () => {
     return (
       <>
         <Header></Header>
@@ -43,4 +43,4 @@ const quemsomos: React.FC = () => {
     )
 }
 
-export default quemsomos;
+export default Quemsomos
