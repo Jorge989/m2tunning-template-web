@@ -24,12 +24,11 @@ export const Textos = styled.div`
   h1 {
     margin-top: 30px;
     color: #222222;
-    font-size: 35px;
+    font-size: 32px;
 
-    font-weight: 400;
+    font-weight: 200;
 
     text-align: center;
-
   }
   strong {
     color: #222222;
@@ -44,13 +43,14 @@ export const Insta = styled.div`
   margin: 0 auto;
   gap: 10px;
   width: 100%;
-  max-width: 99.5%;
+  max-width: 98%;
 
-  padding-top:40px;
+  padding-top: 40px;
+  a {
+    font-size: 26px;
+  }
   @media (max-width: 900px) {
-   
     justify-content: center;
-
   }
   a {
     color: #222222;
@@ -90,16 +90,25 @@ export const InstaButton = styled.button`
   width: 170px;
   max-width: 170px;
   margin: 0 auto;
-  margin-top:40px;
+  margin-top:1px;
+
 `
 export const CarrosWrap = styled.div`
-display:flex;
-justify-content:center;
-flex-direction:column;
-padding-top:10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  width: 100%;
+  padding: 10px 10px;
+  padding-bottom: 80px;
 
-  
+  @media (max-width: 600px) {
+    padding: 0px 0px;
+    padding-top: 30px;
+  }
 `
+
 export const CarrosContianer = styled.div`
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -111,7 +120,7 @@ export const CarrosContianer = styled.div`
   img {
     border-radius: 2px;
     width: 100%;
-    height: 350px;
+    height: 300px;
     object-fit: cover;
   }
 
@@ -143,7 +152,7 @@ export const CarrosContianer2 = styled.div`
     border-radius: 2px;
     width: 100%;
 
-    height: 350px;
+    height: 300px;
     object-fit: cover;
   }
 
@@ -153,7 +162,7 @@ export const CarrosContianer2 = styled.div`
     grid-template-rows: 50% 50%;
     gap: 10px;
     justify-content: center;
-margin-top:20px;
+    margin-top: 20px;
     img {
       border-radius: 2px;
       width: 100%;
@@ -175,7 +184,7 @@ export const CarrosContianer3 = styled.div`
     border-radius: 2px;
     width: 100%;
 
-    height: 350px;
+    height: 300px;
     object-fit: cover;
   }
   @media (max-width: 600px) {

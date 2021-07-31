@@ -13,7 +13,7 @@ import {
 import inslogo from '../../../public/img/instagram.png'
 import cartao from '../../../public/img/cartao3.jpg'
 import carrocamuflado from '../../../public/img/carrocamuflado.jpg'
-
+import bmazul from '../../../public/img/bmwazul.jpeg'
 import evokeroxa from '../../../public/img/evokeroxa.jpg'
 import evokeazul2 from '../../../public/img/evokeazul3.jpg'
 import carroverde from '../../../public/img/carroverde.jpg'
@@ -54,7 +54,7 @@ const Main: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={cartao} />
+              <img src={bmazul} />
             </a>
             <a
               href="https://www.instagram.com/p/CPJZ6bZMvDq/?utm_source=ig_web_copy_link"
@@ -142,11 +142,7 @@ const Main: React.FC = () => {
             </a>
           </CarrosContianer3>
         </CarrosWrap>
-          <InstaButton>
-            {' '}
-           
-            Siga no Instagram
-          </InstaButton>
+        <InstaButton> Siga no Instagram</InstaButton>
       </Container>
     </body>
   )

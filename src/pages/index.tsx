@@ -2,11 +2,13 @@ import { useEffect, useState } from 'react'
 
 import Link from 'next/link'
 import Header from '../components/Header'
+import HeaderMobile from '../components/headermobile'
 import Servicos from '../components/Servicos'
 import Mapa2 from '../components/Mapa2'
-import HeaderMobile from '../components/headermobile'
 import Main from '../components/Main'
 import Principal from '../components/Principal'
+import Footer from '../components/footer'
+import TextosBanner from '../components/textosbanner'
 
 const Home = () => {
   
@@ -17,7 +19,9 @@ const Home = () => {
       <Principal />
       <Main />
       <Mapa2 />
-<Servicos/>
+
+      <Servicos />
+      <Footer />
     </>
   )
 };

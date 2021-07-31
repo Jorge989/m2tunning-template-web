@@ -14,7 +14,6 @@ export const Container = styled.div`
     width: 100%;
     height: 100%;
 
-
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -24,19 +23,17 @@ export const Container = styled.div`
     position: relative;
     width: 100%;
     height: 300px;
- 
 
+    text-shadow: 0px 2px 10px 10px #000;
     color: #fff;
     font-size: max(30px, 75px);
-    font-weight: 400;
+    font-weight: 600;
 
     will-change: transform, opacity;
-transition:1s;
+    transition: 1s;
     font-family: 'Staatliches', sans-serif;
-
   }
   .trails-text > div {
-
   }
   @media (max-width: 900px) {
     display: flex;
@@ -50,7 +47,6 @@ transition:1s;
       position: relative;
       width: 100%;
       height: 100%;
-
 
       cursor: pointer;
       display: flex;
@@ -67,7 +63,7 @@ transition:1s;
 
       line-height: 30px;
       color: #fff;
-      line-height:40px;
+      line-height: 40px;
       font-size: max(40px, 4vw);
       font-weight: 400;
 
@@ -76,7 +72,6 @@ transition:1s;
       font-family: 'Staatliches', sans-serif;
     }
     .trails-text > div {
-
     }
   }
 `

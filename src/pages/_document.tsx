@@ -38,11 +38,21 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="pt-BR">
-        <Head><link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"/></Head>
+        <Head>
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon.svg"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+            rel="stylesheet"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
-      
         </body>
       </Html>
     )

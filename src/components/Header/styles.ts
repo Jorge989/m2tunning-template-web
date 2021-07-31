@@ -22,6 +22,7 @@ export const Header1 = styled.header`
   box-shadow: 0px 0px 10px 3px #000;
   .imagem {
     margin-bottom: 5px !important;
+    cursor: pointer;
   }
 `
 export const Nav = styled.nav`
@@ -57,7 +58,7 @@ export const Li = styled.li`
 `
 export const A = styled.a`
   text-decoration: none;
-  font-size:24px;
+  font-size:22px;
 
   :hover {
     text-decoration: underline;

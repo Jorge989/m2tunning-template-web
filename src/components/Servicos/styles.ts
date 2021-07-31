@@ -7,9 +7,29 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 100%auto;
+  width: 100%;
   max-width: 100%;
 
+  .textos {
+    display: flex;
+    align-items: center;
+    flex-direction: row !important;
+    justify-content: space-around;
+    padding: 0px 20px;
+    width: 100%;
+    height: 200px;
+
+    @media (max-width: 900px) {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 0px 20px;
+      width: 100%;
+      height: 200px;
+     
+    }
+  }
   font-family: 'Staatliches', sans-serif;
 `
 
@@ -23,20 +43,23 @@ export const H1 = styled.h1`
 
 export const Icones = styled.div`
   .items {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    padding-top: 200px;
-    justify-content: center;
+    width: 100%;
+    max-width:100%;
+background-color:red;
+
+    justify-content: center; */
   }
 
   .container-image {
     display: flex;
 
     flex-wrap: wrap;
-    margin: 20px auto;
+    margin: 100px auto;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -49,9 +72,13 @@ export const Icones = styled.div`
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 20px;
+
     width: 600px;
+    
+    padding-bottom: 100px;
     justify-content: center;
+
 
     .mobile-paragrafo {
       display: none;
@@ -105,7 +132,7 @@ export const Icones = styled.div`
       flex-direction: column;
       align-items: center;
       margin: 0 auto;
-      padding-top: 100px;
+      padding-top: 50px;
       width: 300px;
       justify-content: center;
       .mobile-paragrafo {
@@ -141,7 +168,7 @@ export const Textos = styled.div`
   color: #fddc3e;
   background-color: #141414;
   height: 200px;
-  margin-top: -150px;
+
 
   @media (max-width: 900px) {
     display: flex;
@@ -151,6 +178,7 @@ export const Textos = styled.div`
     width: 100%;
     padding: 8px 0px;
     letter-spacing: 2px;
+    margin-top: -190px;
     font-size: max(17px, 17px);
   }
 `

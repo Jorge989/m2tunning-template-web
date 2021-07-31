@@ -3,6 +3,11 @@ import wats from '../../../public/img/wats.svg'
  import { Container } from './styles';
 import { Trail } from '../Textos/index'
 const Principal: React.FC = () => {
+   function handleToggle() {
+     const text = ''
+     const phone = '5511977955519'
+     window.location.href = `https://api.whatsapp.com/send?text=${text}&phone=${phone}`
+   }
   const [open, set] = useState(true)
     return (
       <Container>
@@ -12,15 +17,15 @@ const Principal: React.FC = () => {
               {' '}
               M2 Tuning
               <br />
-              Envelopamento Premium
+              Envelopamento Premium 
               <br />
-              Insulfilm e Estética Automotiva
+              PPF - PELÍCULA DE PROTEÇÃO
+              <br />Estética Automotiva
             </span>
-  
           </Trail>
         </h1>
 
-        <a>
+        <a onClick={handleToggle} target="_blank" rel="noopener noreferrer">
           Whatsapp online <img src={wats} alt={wats} className="wats" />
         </a>
       </Container>

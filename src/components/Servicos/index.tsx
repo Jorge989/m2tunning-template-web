@@ -6,12 +6,27 @@ import Image from 'next/image'
 const Servicos: React.FC = () => {
     return (
       <Container>
-        <Textos>
-          <H1>Insulfilm</H1>
-          <H1>Envelopamentos</H1>
-          <H1>Som</H1>
-          <H1>Acessórios Automotivos</H1>
-        </Textos>
+        <div
+          className="textos"
+          style={{
+            background: '#141414',
+            width: '100%',
+            height: '200px',
+            color: '#fddc3e',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-around",
+            flexWrap: "wrap",
+            marginTop:"-20px"
+            
+          }}
+          
+        >
+
+          <h1>Envelopamento</h1>
+          <h1>Som e Acessórios</h1>
+          <h1>Acessórios Automotivos</h1>
+        </div>
         <Icones>
           <div className="container-image">
             <div className="items">
@@ -19,8 +34,8 @@ const Servicos: React.FC = () => {
                 className="imagem"
                 src="/icones/clean.png"
                 alt="logo"
-                width={160}
-                height={150}
+                width={165}
+                height={170}
                 quality={100}
               />
               <h2>LImpeza a seco</h2>
@@ -35,8 +50,8 @@ const Servicos: React.FC = () => {
                 className="imagem"
                 src="/icones/sun-protection.png"
                 alt="logo"
-                width={160}
-                height={150}
+                width={165}
+                height={170}
                 quality={100}
               />
               <h2>Películas de Proteção Solar</h2>
@@ -50,8 +65,8 @@ const Servicos: React.FC = () => {
                 className="imagem"
                 src="/icones/volume.png"
                 alt="logo"
-                width={160}
-                height={150}
+                width={150}
+                height={130}
                 quality={100}
               />
               <h2>Acessórios Automotivos</h2>
@@ -71,8 +86,8 @@ const Servicos: React.FC = () => {
                 className="imagem"
                 src="/icones/car.png"
                 alt="logo"
-                width={160}
-                height={150}
+                width={90}
+                height={80}
                 quality={100}
               />
               <h2>Envelopamento Automotivo</h2>
@@ -80,7 +95,6 @@ const Servicos: React.FC = () => {
                 Envelopamento de teto, colunas, capô, frisos, grades,
                 <br /> máscaras fumê nos farois e lanternas.
               </p>
-          
             </div>
           </div>
         </Icones>
