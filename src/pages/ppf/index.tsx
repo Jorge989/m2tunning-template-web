@@ -4,8 +4,8 @@ import m2 from '../../../public/img/ppfimage.jpg'
 import Header from '../../components/Header'
 import HeaderMobile from '../../components/headermobile'
 import Footer from '../../components/footer'
-import { Container, Wrapper, ImageBox, Textos } from './styles'
-
+import {  Wrapper, ImageBox, Textos } from './styles'
+import Container from './styles'
 const quemsomos: React.FC = () => {
   return (
     <>
