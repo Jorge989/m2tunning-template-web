@@ -3,7 +3,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/footer'
 import HeaderMobile from '../../components/headermobile'
  import {
-   Container,
+
    CarrosWrap,
    CarrosContianer,
    CarrosContianer2,
@@ -11,7 +11,8 @@ import HeaderMobile from '../../components/headermobile'
    Textos,
    CarrosContianer4,
    CarrosContianer5
- } from "./styles"
+} from "./styles"
+ import Container from "./styles"
 import inslogo from '../../../public/img/instagram.png'
 import cartao from '../../../public/img/cartao3.jpg'
 import carrocamuflado from '../../../public/img/carrocamuflado.jpg'
@@ -46,7 +47,7 @@ const envelopamentos: React.FC = () => {
     setContinuecar(true)
     setControle(false)
     setControle2(true)
-   
+
   }
     function handleCarrs2() {
       setContinuecar2(true)
