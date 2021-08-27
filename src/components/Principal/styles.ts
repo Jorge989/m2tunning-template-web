@@ -42,14 +42,14 @@ export const Container = styled.div`
     gap: 5px;
     font-weight: bolder;
     background-color: transparent;
-    border: 2px solid #47ce37;
+
     margin-top: 123px;
     color: #fff;
     width: 210px;
     cursor: pointer;
     height: 60px;
     border-radius: 5px;
-    box-shadow: 0px 1px 5px 1px #000;
+
 
     background-color: transparent;
     letter-spacing: 2px;
@@ -57,11 +57,7 @@ export const Container = styled.div`
 
     text-align: center;
   }
-  a:hover {
-    width: 212px;
-    height: 62px;
-    background-color: #2fb91f;
-  }
+
   @media (max-width: 600px) {
     display: flex;
     width: 100% !important;
@@ -121,23 +117,19 @@ export const Container = styled.div`
       gap: 5px;
       font-weight: bolder;
       background-color: transparent;
-      background-color: #47ce37;
+
       margin-top: 15px;
       color: #fff;
       width: 210px;
       cursor: pointer;
       height: 60px;
       border-radius: 5px;
-      box-shadow: 0px 1px 5px 1px #000;
+
       letter-spacing: 2px;
       z-index: 3;
 
       text-align: center;
     }
-    a:hover {
-      width: 212px;
-      height: 62px;
-      background-color: #2fb91f;
-    }
+
   }
 `

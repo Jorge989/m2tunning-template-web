@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import banner from '../../../public/img/espatula.png'
+
 import banner2 from '../../../public/img/carbon.jpg'
 export const Container = styled.div`
   display: flex;
@@ -10,18 +10,10 @@ export const Container = styled.div`
   flex-direction: column;
 
 
- 
-  font-family: 'Staatliches', sans-serif;
-  /* @media (max-width: 900px) {
-    display: flex;
-    padding-top: 120px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
 
-    font-family: 'Staatliches', sans-serif;
-  } */
+  font-family: 'Staatliches', sans-serif;
+
+
 `
 export const Textos = styled.div`
   display: flex;
@@ -30,25 +22,22 @@ export const Textos = styled.div`
   text-align: center;
   justify-content: flex-start;
   padding-top: 40px;
-
+  background-color: #151515;
   flex-direction: column;
   color: #fff;
   height: 350px;
-  background: url(${banner2});
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Staatliches', sans-serif;
+
+  font-family: 'Roboto', sans-serif;
 
   h1 {
-    font-size: max(40px, 30px);
+    color: var(--yellow-500);
+    font-size: max(27px, 42px);
   }
   .paragrafo-desktop {
-    font-size: max(40px, 30px);
-    margin-top: 5px;
-    font-weight: 200;
+    letter-spacing: 0px;
+    margin-top: 10px;
 
-    line-height: 50px;
+    font-size: max(32px, 32px);
   }
   .paragrafo-mobile {
     display: none;
@@ -80,7 +69,6 @@ export const Textos = styled.div`
       font-size: max(25px, 20%);
       margin-top: 5px;
       font-weight: 200;
-
     }
   }
 `
@@ -96,6 +84,8 @@ export const CarrosWrap = styled.div`
   @media (max-width: 600px) {
     padding: 0px 0px;
     padding-top: 30px;
+
+    margin-bottom:20px;
   }
   .btn-carregar-box {
   }
@@ -115,8 +105,9 @@ export const CarrosWrap = styled.div`
     /* border: 3px solid #fe2; */
     height: 30px;
     @media (max-width: 600px) {
-      margin-top:30px;
-margin-bottom:30px;
+      margin-top: 30px;
+
+      margin-bottom: 30px;
     }
   }
 `
@@ -130,8 +121,8 @@ export const CarrosContianer = styled.div`
 
   img {
     border-radius: 2px;
-    width: 100%;
-    height: 300px;
+    width: 99%;
+    height: 320px;
     object-fit: cover;
   }
 
@@ -161,9 +152,8 @@ export const CarrosContianer2 = styled.div`
 
   img {
     border-radius: 2px;
-    width: 100%;
-
-    height: 300px;
+    width: 99%;
+    height: 320px;
     object-fit: cover;
   }
 
@@ -193,9 +183,8 @@ export const CarrosContianer3 = styled.div`
 
   img {
     border-radius: 2px;
-    width: 100%;
-
-    height: 300px;
+    width: 99%;
+    height: 320px;
     object-fit: cover;
   }
   @media (max-width: 600px) {
@@ -224,9 +213,8 @@ export const CarrosContianer4 = styled.div`
 
   img {
     border-radius: 2px;
-    width: 100%;
-
-    height: 300px;
+    width: 99%;
+    height: 320px;
     object-fit: cover;
   }
   @media (max-width: 600px) {
@@ -255,9 +243,8 @@ export const CarrosContianer5 = styled.div`
 
   img {
     border-radius: 2px;
-    width: 100%;
-
-    height: 300px;
+    width: 99%;
+    height: 320px;
     object-fit: cover;
   }
   @media (max-width: 600px) {

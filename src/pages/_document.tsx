@@ -39,11 +39,10 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon.svg" />
           <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/favicon.svg"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
           />
           <link
             href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"

@@ -3,12 +3,7 @@ export const Header1 = styled.header`
   display: flex;
 
   background-color: #141414;
-  /* background-color:transparent; */
-  /* background-image: linear-gradient(
-    to right,
-    rgb(38, 38, 38),
-    rgb(253, 253, 253)
-  ); */
+
   width: 100%;
 
   height: 80px;
@@ -34,7 +29,7 @@ export const Nav = styled.nav`
   align-items: center;
   letter-spacing: 1.5px;
   justify-content: space-between;
- 
+
   @media (max-width: 600px) {
     display: none;
   }
@@ -54,11 +49,11 @@ export const Li = styled.li`
   list-style: none;
   justify-content: space-between;
   gap: 20px;
-  
+
 `
 export const A = styled.a`
   text-decoration: none;
-  font-size:22px;
+  font-size:19px;
 
   :hover {
     text-decoration: underline;

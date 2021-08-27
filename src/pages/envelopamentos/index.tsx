@@ -11,7 +11,7 @@ import HeaderMobile from '../../components/headermobile'
    Textos,
    CarrosContianer4,
    CarrosContianer5
- } from "../../styles/styles-quemsomos"
+ } from "./styles"
 import inslogo from '../../../public/img/instagram.png'
 import cartao from '../../../public/img/cartao3.jpg'
 import carrocamuflado from '../../../public/img/carrocamuflado.jpg'

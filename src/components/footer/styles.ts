@@ -16,7 +16,7 @@ export const Footer = styled.footer`
   font-family: 'Staatliches', sans-serif;
 
   /* background-color: #0c1524; */
-  background-color: #141414;
+  background-color: #121212;
   .footer-logo {
     display: flex;
     align-items: center;

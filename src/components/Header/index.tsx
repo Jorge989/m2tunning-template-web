@@ -1,8 +1,9 @@
 
- 
+
 import Link from 'next/link'
 import Image from 'next/image'
-import {Header1,Nav,Ul,Li,A}from './styles'
+import { Header1, Nav, Ul, Li, A } from './styles'
+import { ContatoButton } from '../../components/PrecautionsButton'
 const Header: React.FC = () => {
 
 
@@ -35,10 +36,11 @@ const Header: React.FC = () => {
           <Li>
             <A href="/ppf">estética</A>
           </Li>
-          <Li>
+          {/* <Li>
             <A href="#signin">contato</A>
-          </Li>
+          </Li> */}
         </Ul>
+        <ContatoButton/>
       </Nav>
     </Header1>
   )

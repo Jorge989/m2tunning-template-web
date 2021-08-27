@@ -119,8 +119,8 @@ export const CarrosContianer = styled.div`
 
   img {
     border-radius: 2px;
-    width: 100%;
-    height: 300px;
+    width: 99%;
+    height: 320px;
     object-fit: cover;
   }
 
@@ -130,7 +130,7 @@ export const CarrosContianer = styled.div`
     grid-template-rows: 50% 50%;
 
     justify-content: center;
-gap:10px;
+    gap: 10px;
     img {
       border-radius: 2px;
       width: 100%;
@@ -150,9 +150,8 @@ export const CarrosContianer2 = styled.div`
 
   img {
     border-radius: 2px;
-    width: 100%;
-
-    height: 300px;
+    width: 99%;
+    height: 320px;
     object-fit: cover;
   }
 
@@ -182,9 +181,8 @@ export const CarrosContianer3 = styled.div`
 
   img {
     border-radius: 2px;
-    width: 100%;
-
-    height: 300px;
+    width: 99%;
+    height: 320px;
     object-fit: cover;
   }
   @media (max-width: 600px) {

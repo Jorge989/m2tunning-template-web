@@ -4,9 +4,9 @@ import m2 from '../../../public/img/blackm2.jpg'
 import Header from '../../components/Header'
 import HeaderMobile from '../../components/headermobile'
 import Footer from '../../components/footer'
- import { Container,   Wrapper, ImageBox, Textos } from "../../styles/styles-enevelopamentos"
+ import { Container,   Wrapper, ImageBox, Textos } from "./styles"
 
- 
+
 const quemsomos: React.FC = () => {
     return (
       <>
@@ -21,7 +21,7 @@ const quemsomos: React.FC = () => {
                 de experiência na arte de envelopamento. A M2 Tunning nasceu da
                 vontade de levar aquilo que já faziamos dentro de casa para
                 outras pessoas a fazer parte da cosntrução de momentos e
-                experiências diferenciadas que irão marcar as vidas de nossos
+                experiências diferenciadas que irão marcar as vidas de<br/> nossos
                 cliente e amigos.
               </p>
               <p className="paragrafo-mobile">
