@@ -27,7 +27,7 @@ export const Container = styled.div`
       padding: 0px 20px;
       width: 100%;
       height: 200px;
-     
+
     }
   }
   font-family: 'Staatliches', sans-serif;
@@ -75,7 +75,7 @@ background-color:red;
     padding-top: 20px;
 
     width: 600px;
-    
+
     padding-bottom: 100px;
     justify-content: center;
 
@@ -165,7 +165,7 @@ export const Textos = styled.div`
   justify-content: space-around;
   flex-direction: row;
   width: 100%;
-  color: #fddc3e;
+  color: var(--yellow-500);
   background-color: #141414;
   height: 200px;
 

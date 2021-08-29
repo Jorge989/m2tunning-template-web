@@ -31,7 +31,7 @@ const Header: React.FC = () => {
             <A href="/ppf">ppf</A>
           </Li>
           <Li>
-            <A href="/ppf">pelicula de proteção solar</A>
+            <A href="/insulfilm">pelicula de proteção solar</A>
           </Li>
           <Li>
             <A href="/ppf">estética</A>

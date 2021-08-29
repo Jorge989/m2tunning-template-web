@@ -15,7 +15,7 @@ export function ContatoButton() {
     </S.Container>
   ) : (
     <S.Container>
-      <Link href="/precaution" passHref>
+      <Link href="/contato" passHref>
         <button type="button" className="precaution1">
           {' '}
           <FaPhone color="#eba417" />

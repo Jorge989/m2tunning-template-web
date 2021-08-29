@@ -46,10 +46,10 @@ export const Li = styled.li`
   display: flex;
 
   flex-direction: row;
+  color: var(--yelow-500);
   list-style: none;
   justify-content: space-between;
   gap: 20px;
-
 `
 export const A = styled.a`
   text-decoration: none;

@@ -26,7 +26,7 @@ const Principal: React.FC = () => {
             </span>
           </Trail>
         </h1>
-        <a>
+        <a onClick={handleToggle} target="_blank" rel="noopener noreferrer">
           <WatzapButton />
         </a>
 

@@ -11,6 +11,7 @@ export const Container = styled.div`
       padding: 0 1.5rem;
       display: flex;
       font-size:14px;
+      cursor: pointer;
       letter-spacing:1px;
       margin-left:20rem;
       align-items: center;

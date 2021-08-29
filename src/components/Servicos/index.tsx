@@ -18,9 +18,9 @@ const Servicos: React.FC = () => {
             justifyContent: "space-around",
             flexWrap: "wrap",
             marginTop:"-20px"
-            
+
           }}
-          
+
         >
 
           <h1>Envelopamento</h1>
